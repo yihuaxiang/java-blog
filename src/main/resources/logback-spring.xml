@@ -14,7 +14,7 @@
 			<pattern>${CONSOLE_LOG_PATTERN}</pattern>
 			<charset>utf8</charset>
 		</encoder>
-		<file>/var/log/itranswarp/app.log</file>
+		<file>~/itranswarp/app.log</file>
 		<rollingPolicy class="ch.qos.logback.core.rolling.FixedWindowRollingPolicy">
 			<fileNamePattern>/var/log/itranswarp/app.log.%i</fileNamePattern>
 			<minIndex>1</minIndex>
