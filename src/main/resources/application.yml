@@ -18,9 +18,9 @@ spring:
 
   # mysql configuration:
   datasource:
-    url: jdbc:mysql://${DB_HOST:localhost}:${DB_PORT:3306}/${DB_NAME:it}?useSSL=${DB_SSL:false}&characterEncoding=${DB_ENCODING:utf8}
-    username: ${DB_USERNAME:root}
-    password: ${DB_PASSWORD:password}
+    url: jdbc:mysql://${DB_HOST:rm-xxxxxxxxxxxxxxxxxxx.mysql.rds.aliyuncs.com}:${DB_PORT:3306}/${DB_NAME:node_chart}?useSSL=${DB_SSL:false}&characterEncoding=${DB_ENCODING:utf8}
+    username: ${DB_USERNAME:node_chart}
+    password: ${DB_PASSWORD:xxxxxxxxxxxxxxx}
     driver-class-name: com.mysql.jdbc.Driver
     hikari:
       pool-name: HikariCP
