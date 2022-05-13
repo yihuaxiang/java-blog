@@ -13,7 +13,7 @@
 	</parent>
 
 	<scm>
-		<connection>scm:git:git@github.com:michaelliao/itranswarp.git</connection>
+		<connection>scm:git:git@github.com:yihuaxiang/itranswarp.git</connection>
 	</scm>
 
 	<name>itranswarp</name>
@@ -190,7 +190,7 @@
 				<artifactId>dockerfile-maven-plugin</artifactId>
 				<version>1.4.13</version>
 				<configuration>
-					<repository>michaelliao/itranswarp</repository>
+					<repository>yihuaxiang/itranswarp</repository>
 					<tag>${project.version}</tag>
 					<buildArgs>
 						<JAR_FILE>${project.build.finalName}.jar</JAR_FILE>

@@ -2,9 +2,9 @@
 
 Full-featured CMS including blog, wiki, discussion, etc. Cloud native application that powered by SpringBoot.
 
-![Github Workflow](https://github.com/michaelliao/warpdb/actions/workflows/maven.yml/badge.svg)
+![Github Workflow](https://github.com/yihuaxiang/warpdb/actions/workflows/maven.yml/badge.svg)
 
-[![Docker Pulls](https://img.shields.io/docker/pulls/michaelliao/itranswarp?color=%2334D058&style=plastic)](https://hub.docker.com/repository/docker/michaelliao/itranswarp)
+[![Docker Pulls](https://img.shields.io/docker/pulls/yihuaxiang/itranswarp?color=%2334D058&style=plastic)](https://hub.docker.com/repository/docker/yihuaxiang/itranswarp)
 
 * Based on SpringBoot 2.x
 * Search support
@@ -70,7 +70,7 @@ Please check [application.yml](src/main/resources/application.yml) for environme
 
 ### Deploy
 
-iTranswarp is deployed by Docker. Images can be pulled from [DockerHub](https://hub.docker.com/repository/docker/michaelliao/itranswarp).
+iTranswarp is deployed by Docker. Images can be pulled from [DockerHub](https://hub.docker.com/repository/docker/yihuaxiang/itranswarp).
 
 ```
                         ┌─────────────────────────────────────────┐
